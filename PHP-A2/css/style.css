@@ -1,0 +1,219 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+p,a,li,input,th,td{
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+.row{
+  margin: 0px;
+}
+header{
+ background-color: #fd4d0d45;
+}
+header > nav > div > a > img{
+  height: 150px;
+  width: auto;
+  clip-path: circle(50%);
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:midnightblue ;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  color:crimson;
+}
+
+.masthead{
+  height: 65vh;
+  background-image: url('../img/bg1.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; 
+}
+.masthead div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.masthead div h1{
+  font-family: 'Shrikhand',sans-serif;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+.form-row1{
+  background: linear-gradient(45deg, #31333e, #f9ccc6);
+}
+.form-row2{
+  background: linear-gradient(45deg,#f9ccc6, #31333e );
+}
+.form-row1,
+.form-row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.idiv1,
+.idiv2,
+.idiv3,
+.idiv4 {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  margin: 1em;
+}
+.form-row1 p, .form-row2 p{
+  font-family: 'Dosis',sans-serif;
+}
+.form1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  padding: .25em;
+}
+.idiv1 h3,.idiv2 h4,
+.idiv3 h4, .idiv4 h3{
+  font-family: 'Whisper',sans-serif;
+  font-size: 3em;
+  color: #001527;
+  font-weight: bold;
+}
+.login-row{
+  background-image: url(../img/bg2.jpg);
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  margin: 1em 0;
+}
+.login-row div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.login-row  h2{
+  font-family: 'Shrikhand',sans-serif;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+.disperson {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 1em auto;
+  background:#f0cdf0;
+}
+.disperson h2{
+  font-family: 'Whisper',sans-serif;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 4em;
+}
+.btn{
+  background-color: gray;
+  border: solid 2px gray;
+  color: #ffffff;
+  margin: .25em;
+}
+.btn:hover{
+  background-color: palevioletred;
+  border: solid 2px palevioletred;
+
+}
+.person-masthead{
+  width: 100%;
+  height: 50vh;
+}
+.person-masthead div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.person-masthead div h1{
+  color: #fff;
+  font-size: 2.5em;
+}
+.person-row{
+  padding: 5% 10%;
+}
+.success-row{
+  background-image: url(../img/bg1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success-row h3{
+  font-family: 'whisper',sans-serif;
+  font-size: 4em;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.success-back-row{
+  padding: 5%;
+}
+
+.success-back-row {
+  background-color: #f0f8ff; /* Light blue background color */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Add some top margin */
+}
+
+.success-back-row p {
+  font-size: 18px; /* Set the font size for paragraphs */
+  color: #333; /* Set the text color */
+}
+
+.success-back-row a {
+  display: inline-block; /* Make the link a block element for better styling */
+  margin-top: 10px; /* Add some top margin */
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: gray; /* Blue button color */
+  color: #fff; /* Text color for the button */
+  text-decoration: none; /* Remove underline from the link */
+  border-radius: solid 5px gray; /* Add border-radius for a rounded button appearance */
+}
+
+.success-back-row a:hover {
+  background-color: #4e3547; /* Darker blue color on hover */
+}
+.wrap_new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fd4d0d45;
+  padding: 20px;
+}
+.footer-links {
+  flex: 1;
+}
+.footer-links a {
+  text-decoration: none;
+  font-family: 'roboto condensed',sans-serif;
+  color: #333;
+  margin: 0 10px;
+  font-size: 1em;
+}
+.footer-links a:hover{
+  font-weight: bold;
+}
+.footer-logo img{
+  width:50%;
+  height: 50%;
+  clip-path: circle(50%);
+}
